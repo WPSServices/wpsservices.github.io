@@ -22,7 +22,7 @@ export function ReviewProcess() {
             className="group inline-flex items-center gap-2 underline hover:text-blue-400 transition"
           >
             <FileText className="w-4 h-4 text-blue-400" />
-            NASA Public Record
+            Source for reviewed welding documents (NASA Public Record)
             <span className="text-slate-400 group-hover:text-blue-400">↗</span>
           </a>
         </p>
@@ -38,28 +38,24 @@ export function ReviewProcess() {
             <ul className="text-slate-300 space-y-1">
               <DocumentLink
                 href="/pdfs/wps-markup.pdf"
-                icon={<FileText />}
                 label="WPS Document Markup"
                 type="PDF"
               />
 
               <DocumentLink
                 href="/pdfs/wps-review.pdf"
-                icon={<FileText />}
                 label="WPS Document Review"
                 type="PDF"
               />
 
               <DocumentLink
                 href="/docs/suggested-wps-addendum.docx"
-                icon={<FileEdit />}
                 label="WPS Addenda Recommendation"
                 type="Word"
               />
 
               <DocumentLink
                 href="/pdfs/wps-pqr-summary.pdf"
-                icon={<FileText />}
                 label="Comprehensive Summary"
                 type="PDF"
               />
@@ -76,28 +72,24 @@ export function ReviewProcess() {
             <ul className="text-slate-300 space-y-1">
               <DocumentLink
                 href="/pdfs/pqr-markup.pdf"
-                icon={<FileText />}
                 label="PQR Document Markup"
                 type="PDF"
               />
 
               <DocumentLink
                 href="/pdfs/pqr-review.pdf"
-                icon={<FileText />}
                 label="PQR Document Review"
                 type="PDF"
               />
 
               <DocumentLink
                 href="/docs/suggested-pqr-addendum.docx"
-                icon={<FileEdit />}
                 label="PQR Addenda / Correction Recommendation"
                 type="Word"
               />
 
               <DocumentLink
                 href="/pdfs/wps-pqr-summary.pdf"
-                icon={<FileText />}
                 label="Comprehensive Summary"
                 type="PDF"
               />
@@ -129,12 +121,10 @@ export function ReviewProcess() {
 
 function DocumentLink({
   href,
-  icon,
   label,
   type,
 }: {
   href: string;
-  icon: React.ReactNode;
   label: string;
   type: 'PDF' | 'Word';
 }) {
@@ -148,12 +138,7 @@ function DocumentLink({
                    transition cursor-pointer
                    hover:bg-slate-800 hover:text-blue-400"
       >
-        <div className="flex items-center gap-3">
-          <span className="text-blue-400 w-4 h-4 shrink-0">
-            {icon}
-          </span>
-          <span>{label}</span>
-        </div>
+        <span>{label}</span>
 
         <div className="flex items-center gap-2 text-xs text-slate-500 group-hover:text-blue-400 transition">
           <span>{type}</span>
