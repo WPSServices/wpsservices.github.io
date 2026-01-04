@@ -6,7 +6,7 @@ export function ReviewProcess() {
     <section className="py-20 px-6 bg-slate-900 text-white">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl mb-4 text-center">
-          Comprehensive Review Documentation
+          Examples of Comprehensive Review
         </h2>
 
         <p className="text-center text-slate-300 mb-12 max-w-2xl mx-auto">
