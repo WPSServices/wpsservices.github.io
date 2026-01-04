@@ -1,4 +1,3 @@
-// filepath: c:\Users\Admin\Desktop\WPS Services Landing Page\src\components\Footer.tsx
 import React from 'react';
 
 export function Footer() {
@@ -8,7 +7,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center gap-3">
             <img
-              src="/src/assets/wps-services-logo.png"
+              src="/images/wps-services-logo.png"
               alt="WPS Services Logo"
               className="w-8 h-8"
             />
@@ -20,7 +19,9 @@ export function Footer() {
 
           <div className="text-center md:text-right">
             <p className="text-slate-400">Borger, Texas</p>
-            <p className="text-slate-400">© {new Date().getFullYear()} WPS Services. All rights reserved.</p>
+            <p className="text-slate-400">
+              © {new Date().getFullYear()} WPS Services. All rights reserved.
+            </p>
           </div>
         </div>
       </div>

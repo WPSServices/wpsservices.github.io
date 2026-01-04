@@ -50,7 +50,7 @@ export function ReviewProcess() {
               </li>
               <li>
                 <a
-                  href="/pdfs/suggested-wps-addendum.docx"
+                  href="/docs/suggested-wps-addendum.docx"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline hover:text-blue-400"
@@ -100,7 +100,7 @@ export function ReviewProcess() {
               </li>
               <li>
                 <a
-                  href="/pdfs/suggested-pqr-addendum.docx"
+                  href="/docs/suggested-pqr-addendum.docx"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline hover:text-blue-400"
