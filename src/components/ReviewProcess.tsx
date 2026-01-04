@@ -3,7 +3,6 @@ import {
   FileSearch,
   CheckCircle,
   FileEdit,
-  FileText,
 } from 'lucide-react';
 
 export function ReviewProcess() {
@@ -14,6 +13,7 @@ export function ReviewProcess() {
           Examples of Comprehensive Review
         </h2>
 
+        {/* Source link */}
         <p className="text-center text-slate-300 mb-12 max-w-2xl mx-auto">
           <a
             href="/pdfs/reviewed-welding-doc.pdf"
@@ -21,8 +21,9 @@ export function ReviewProcess() {
             rel="noopener noreferrer"
             className="group inline-flex items-center gap-2 underline hover:text-blue-400 transition"
           >
-            <FileText className="w-4 h-4 text-blue-400" />
-            Source for reviewed welding documents (NASA Public Record)
+            <span>
+              Source for reviewed welding documents (NASA Public Record)
+            </span>
             <span className="text-slate-400 group-hover:text-blue-400">↗</span>
           </a>
         </p>
@@ -84,7 +85,7 @@ export function ReviewProcess() {
 
               <DocumentLink
                 href="/docs/suggested-pqr-addendum.docx"
-                label="PQR Addenda / Correction Recommendation"
+                label="PQR Recommendations"
                 type="Word"
               />
 
@@ -138,9 +139,15 @@ function DocumentLink({
                    transition cursor-pointer
                    hover:bg-slate-800 hover:text-blue-400"
       >
-        <span>{label}</span>
+        {/* LEFT: single-line, truncated label */}
+        <span className="min-w-0 flex-1 text-left truncate overflow-hidden whitespace-nowrap">
+          {label}
+        </span>
 
-        <div className="flex items-center gap-2 text-xs text-slate-500 group-hover:text-blue-400 transition">
+        {/* RIGHT: file type (fixed, never wraps) */}
+        <div className="flex items-center gap-2 text-xs text-slate-500
+                        group-hover:text-blue-400 transition
+                        shrink-0 whitespace-nowrap">
           <span>{type}</span>
           <span>↗</span>
         </div>
