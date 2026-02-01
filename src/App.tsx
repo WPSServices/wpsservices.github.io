@@ -9,12 +9,14 @@ import { Footer } from './components/Footer';
 export default function App() {
   return (
     <div className="min-h-screen bg-white">
-      <Hero />
-      <About />
-      <Services />
-      <Codes />
-      <ReviewProcess />
-      <Contact />
+      <main id="main-content">
+        <Hero />
+        <About />
+        <Services />
+        <Codes />
+        <ReviewProcess />
+        <Contact />
+      </main>
       <Footer />
     </div>
   );
