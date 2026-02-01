@@ -31,7 +31,7 @@ export function Contact() {
                     href="mailto:WPSServices@gmail.com" 
                     className="text-blue-600 hover:underline"
                   >
-                    WPSServices@gmail.com
+                    WPSServicesTX@gmail.com
                   </a>
                 </div>
               </div>
