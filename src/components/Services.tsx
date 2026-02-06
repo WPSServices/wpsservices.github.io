@@ -53,7 +53,10 @@ export function Services() {
           Services Provided
         </h2>
         <p className="text-center text-slate-600 mb-12 max-w-2xl mx-auto">
-          Comprehensive welding quality solutions tailored to your project needs
+          WPS Services offers comprehensive welding quality support tailored to the specific needs of each project.
+          From detailed review of welding procedures and qualification records to on-site documentation
+          and record management, our services are designed to ensure technical accuracy, traceability, and readiness
+          for audits or inspections at any stage of a project.
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

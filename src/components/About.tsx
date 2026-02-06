@@ -6,6 +6,13 @@ export function About() {
     <section className="py-20 px-6 bg-white">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl text-slate-900 mb-8 text-center">About Our Services</h2>
+        <p className="text-center text-slate-600 mb-12 max-w-2xl mx-auto">
+          WPS Services provides independent welding procedure review and quality compliance consulting to support safe,
+          reliable, and code-compliant welding operations. 
+          We act as an owner's representative to verify that welding documentation meets applicable code requirements,
+          project specifications, and quality expectations. Our focus is on identifying deficiencies early, reducing risk,
+          and helping clients maintain consistent welding quality across their operations.
+        </p>
         
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           <div className="bg-slate-50 p-8 rounded-xl border border-slate-200">

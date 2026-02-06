@@ -12,6 +12,12 @@ export function ReviewProcess() {
         <h2 className="text-4xl mb-4 text-center">
           Examples of Comprehensive Review
         </h2>
+        <p className="text-center text-slate-600 mb-12 max-w-2xl mx-auto">
+          The examples provided demonstrate the level of detail and documentation delivered
+          during a comprehensive welding procedure and procedure qualification record review.
+          Sample documents illustrate markup, technical review, recommendations, and summarized findings,
+          providing transparency into our review process and the value delivered to clients.
+        </p>
 
         {/* Source link */}
         <p className="text-center text-slate-300 mb-12 max-w-2xl mx-auto">

@@ -28,7 +28,10 @@ export function Codes() {
           <Award className="w-16 h-16 text-blue-600 mx-auto mb-4" />
           <h2 className="text-4xl text-slate-900 mb-4">Codes of Excellence</h2>
           <p className="text-slate-600 max-w-2xl mx-auto">
-            We work with industry-leading standards to ensure your welding procedures meet all regulatory requirements
+            Welding procedures are evaluated against applicable industry codes, standards, and project-specific requirements
+            to ensure full compliance. WPS Services applies a thorough, code-driven approach when reviewing documentation,
+            verifying that essential, supplementary essential, and non-essential variables, applicable limitations,
+            and supporting data align with governing standards and referenced documents.
           </p>
         </div>
         

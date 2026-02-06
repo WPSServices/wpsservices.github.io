@@ -7,7 +7,9 @@ export function Contact() {
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl text-slate-900 mb-4 text-center">Get in Touch</h2>
         <p className="text-center text-slate-600 mb-12">
-          Ready to improve your welding quality management? Contact us today for a consultation.
+          Whether you require a single procedure review or ongoing support for your welding quality management system,
+          WPS Services is ready to assist. Contact us to discuss your project requirements, compliance needs,
+          or consultation services, and learn how we can support your welding operations.
         </p>
         
         <div className="grid md:grid-cols-2 gap-8">
